@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+
+<title>Тест</title>
+
+<script type="text/javascript" src="bigint.js"></script>
+<script type="text/javascript">
+
+function init() {
+   a = BigInt('324857134786')
+   b = BigInt('168083083752')
+   c = BigInt.add(a, b)
+   d = BigInt.sub(b, a)
+   e = BigInt.mul(a, b)
+   f = BigInt.div(b, BigInt('984'))
+   g = BigInt.div(a, BigInt('168083'))
+}
+
+</script>
+</head>
+<body onload="init()">
+</body>
+</html>
